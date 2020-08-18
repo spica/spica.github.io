@@ -31,8 +31,8 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    /*--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+    /*--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;*/
 }
 
 *,
@@ -4087,11 +4087,13 @@ tbody.collapse.show {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    font-family: "argesta_headline", "Noto Serif KR", cursive;
 }
 
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    font-family: "argesta_headline", "Noto Serif KR", cursive;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -9751,14 +9753,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-    font-family: "Dosis", sans-serif;
+    font-family: "argesta_headline", "Noto Serif KR", sans-serif;
 }
 
 /* Home Page Style */
 .ww-home-page {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/main-background.png") no-repeat center center;
     background-size: cover;
-    background-position: 50%;
+    background: url("../images/main-background.png") no-repeat 50%;
     height: 100vh;
     min-height: 480px;
 }
@@ -10026,7 +10027,7 @@ body {
 
 /* Common Style */
 .ww-title {
-    font-family: "Noto Serif KR", cursive;
+    font-family: "argesta_headline", "Noto Serif KR", cursive;
 }
 
 .ww-section {
