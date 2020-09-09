@@ -9759,7 +9759,7 @@ body {
 /* Home Page Style */
 .ww-home-page {
     background-size: cover;
-    background: url("../images/main-background.png") no-repeat 50%;
+    background: url("https://s3.ap-northeast-2.amazonaws.com/mvlchain.test/images/main-background.png") no-repeat 50%;
     height: 100vh;
     min-height: 480px;
 }
